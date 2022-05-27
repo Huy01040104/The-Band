@@ -37,6 +37,10 @@
         padding: 1.5rem 0;
         display: inline-block;
     }
+    
+    .footer {
+        padding: 6.4rem 0 3.2rem;
+    }
 
     .modal__footer-link {
         padding: 1.5rem 0;
