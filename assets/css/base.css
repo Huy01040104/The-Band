@@ -1,0 +1,51 @@
+:root {
+    --black-color: #000;
+    --white--color: #fff;
+    --gray-color: #ccc;
+    --red-color: #f44336;
+    --text-light-color: #757575;
+    --green-color: #009688;
+    --header-height: 4.6rem;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.white-text {
+    color: var(--white--color) !important;
+}
+
+.content-section {
+    width: 100%;
+    max-width: 80rem;
+    padding: 6.4rem 1.6rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-section__title {
+    font-size: 3rem;
+    color: var(--black-color);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1.5rem 0;
+    letter-spacing: 0.2rem;
+}
+
+.content-section__slogan {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-style: italic;
+    text-align: center;
+    opacity: 0.6;
+    margin: 2rem 0;
+}
