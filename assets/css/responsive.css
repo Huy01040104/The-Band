@@ -1,12 +1,12 @@
 /* PC */
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
     .header__menu-mobile {
         display: none;
     }
 }
 
 /* Tablet + Mobile */ 
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em) {
     .slider__fake-radio {
         display: none;
     }
@@ -48,7 +48,7 @@
 }
 
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
     .header__subnav-item-link {
         padding: 0.4rem 1.2rem;
     }
@@ -59,7 +59,7 @@
 }
 
 /* Mobile */
-@media (max-width: 739px) {
+@media (max-width: 46.1875em) {
     #header {
         overflow: hidden;
         display: block;
