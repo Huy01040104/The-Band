@@ -349,6 +349,8 @@
     outline: none;
     border: none;
     margin-bottom: 1.6rem;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .tour-places__item-btn:hover {
